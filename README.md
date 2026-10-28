@@ -12,6 +12,7 @@
 5. [Instrucciones de Instalación y Ejecución](#-instrucciones-de-instalación-y-ejecución)
 6. [Módulos Nativos y Algoritmos Implementados](#-módulos-nativos-y-algoritmos-implementados)
 7. [Capturas de Pantalla y Evidencias](#-capturas-de-pantalla-y-evidencias)
+8. [Video Demostrativo](#-video-demostrativo)
 
 ---
 
@@ -236,6 +237,12 @@ Estructura del payload exportado:
   ]
 }
 ```
+
+---
+
+## 🎥 Video Demostrativo
+El video demostrativo de la aplicación en funcionamiento se puede encontrar en:  
+🔗 [Ver Video Demostrativo en Google Drive](https://drive.google.com/file/d/1GD6HSTFa-68mPsqJEjQdiD24_jZCfUFt/view?usp=sharing)
 
 ---
 *Desarrollado para la cátedra de Desarrollo de Aplicaciones Móviles 2026.*

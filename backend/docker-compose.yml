@@ -1,0 +1,9 @@
+services:
+  qos-server:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - MAX_UPLOAD_MB=50
+    restart: unless-stopped

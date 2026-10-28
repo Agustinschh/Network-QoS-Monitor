@@ -1,0 +1,85 @@
+# ==============================================================================
+# Git Ignore - Network QoS Monitor
+# ==============================================================================
+
+# OS & Filesystem Metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Editors & IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json.bak
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Temporary media & debug screenshots
+*.log
+.tempmediaStorage/
+current_*.png
+screen.png
+emulator_*.png
+
+# ==============================================================================
+# React Native / Android
+# ==============================================================================
+mobile/android/.gradle/
+mobile/android/build/
+mobile/android/app/build/
+mobile/android/.cxx/
+mobile/android/local.properties
+mobile/android/*.iml
+mobile/android/app/*.iml
+*.apk
+*.aab
+*.hprof
+
+# Keep debug.keystore for development convenience if needed
+*.keystore
+!mobile/android/app/debug.keystore
+
+# ==============================================================================
+# React Native / iOS
+# ==============================================================================
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/DerivedData/
+mobile/ios/*.xcworkspace/xcuserdata/
+mobile/ios/*.xcodeproj/xcuserdata/
+mobile/ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+mobile/ios/**/.xcode.env.local
+*.ipa
+
+# Metro & Bundles
+*.jsbundle
+.metro-health-check*
+
+# Coverage & Tests
+coverage/
+.nyc_output/
